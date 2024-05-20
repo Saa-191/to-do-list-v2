@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200..1000&display=swap" rel="stylesheet">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="container">
+        <div class="todo">
+            <h2>To Do List <img src="images/todolist.png" alt="img"></h2>
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Add your task">
+                <button onclick="addTask()">&plus;</button>
+                <span style="color: red;" id="task-error"></span>
+            </div>
+            
+                <ul class="list" id="listcontainer">
+                   
+                </ul>
+
+            
+            
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
